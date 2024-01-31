@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #22577a;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100dvh;    
+}
+
+header {
+    display: block;
+    margin-bottom: 1rem;
+    font-family: 'Nunito', sans-serif;
+    color: #57cc99;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+form :where(textarea, select, button) {
+    outline: none;
+    border: none;
+}
+
+textarea {
+    margin: .5rem 0;
+    border: 1px solid #22577a;
+    padding: 8px 10px;
+    resize: none;
+}
+
+select {
+    margin: .5rem 0;
+}
+
+button {
+    padding: .25rem .40rem;
+    border-radius: 5px;
+    font-family: 'Antic Didone', serif; 
+    background-color: #38a3a5;
+    border: 1px solid #80ed99;
+    color: whitesmoke;
+    height: 40px;
+    width: 100%;
+}
+
+select {
+    font-size: 15px;
+    background: none;
+}
+
+label {
+    font-family: 'Antic Didone', serif; 
+    color: #38a3a5;
+}
+
+.container {
+    background-color: #c7f9cc;
+    padding: 2rem 1.75rem;
+    border-radius: 35% 5% / 5% 35%;
+}
+
+.voice-select {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #22577a;
+    margin: .5rem 0;
+    background-color: #dafcdd;
+    font-family: 'Nunito', sans-serif;
+}
+
+#textBox {
+    display: block;
+    font-family: 'Antic Didone', serif;    
+}
+
+
+

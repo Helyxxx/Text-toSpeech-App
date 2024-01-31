@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Text to Speech App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <header>Text to Speech</header>
+            <form action="#">
+                <div>
+                    <label for="textLabel">Enter Text</label>
+                    <textarea name="textBox" id="textBox" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <label for="voice">Select Voice</label>
+                    <div class="voice-select">
+                        <select name="voiceSelect" id="voiceSelect"></select>
+                    </div>                
+                </div>
+                <button>Convert To Speech</button>
+            </form>
+        </div>
+
+    </main>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
